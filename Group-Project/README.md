@@ -1,22 +1,26 @@
 # Expense Tracker
 
-MSCS-632 group project, deliverable 1. One terminal application, implemented in Python and C++.
+Advanced Programming Languages - MSCS-632-A01 
 
-The application records expenses, lists them, filters them by date range and category, and totals them by category and overall. 
-Both implementations offer the same feature sets over the same record structure. The data lives in memory for the length of one run.
+Group Project: Cross-Language Application Development - Expense Tracker Application 
 
-The purpose of building the same application in 2 different languages is to compare how the two languages handle the same job, in data structures, memory management, and error handling. 
-The comparison is written up separately in the project report.
+Team 1
+- Nguyen Vo
+- Sabin Ranabhat
+- Vikram Reddy Tekula
 
-## Layout and ownership
+#Deliverable 1
+## Project Overview
 
-| Directory | Holds | Owned by |
-| --- | --- | --- |
-| `python/` | the Python implementation | Sabin Ranabhat |
-| `cpp/` | the C++ implementation | Nguyen Vo |
+This project implements an Expense Tracker application in two programming languages: Python and C++.
 
+The purpose of the project is to build the same application in 2 different languages to compare how the two languages handle the same job in data structures, memory management, and error handling. The project is to implement equivalent functionality in both languages while demonstrating language-specific programming features. 
 
-Both implementations use the same four units, which is what lets the report put the two implementations side by side.
+The application records expenses, lists them, filters them by date range and category, and totals them by category and overall. The comparison is written up separately in the project report.
+
+## Layout
+
+Both implementations use the same four units, which allows the report to put the two implementations side by side.
 
 | Unit | Holds |
 | --- | --- |
